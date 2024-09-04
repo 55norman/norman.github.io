@@ -1,1 +1,1 @@
-This is new feature
+This is first feature.txt file.
