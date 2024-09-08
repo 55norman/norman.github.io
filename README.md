@@ -1,0 +1,2 @@
+It have been long time I left from II and Network Engineer. After 8 years, I combe back. So, all are totally new from me and quite difficult. When I was left from Network engineer, I was just junior Netowrk enginner and very basic knowledge. I had totally stoped learning
+related with IT,Netowrk,colud, server and operation system. Hopefully, I can follow the course and I can quit fomr the strefull, boring jobs. 
