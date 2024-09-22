@@ -1,0 +1,56 @@
+Command for Redis Server
+
+
+Install redis server
+#sudo apt install redis -y
+
+Check Sudo services
+#sudo systemctl status redis
+
+Start/stop redis service
+#sudo systemctl start redis
+#sudo systemctl stop redis
+
+start/stop immediately
+#sudo systemctl enable --now redis
+
+Ping to redis server
+#redis-cli ping
+
+Login to redis server
+#redis-cli
+
+Set Password redis server
+#CONFIG SET requirepass norman+123
+
+Direct Login to redis server
+#redis-cli-cli -a norman+123 
+
+Direct ping to redis server when set authentication
+#redis-cli -a norman+123 ping
+
+Login to other host if your' not direct connect(local)
+#redis-cli -a norman+123 -h 127.0.0.1
+
+Login to other host if your' not direct connect(local) using port
+#redis-cli -a norman+123 -h 127.0.0.1 -p 6379 ping
+
+check redis.config
+#sudo ls -lah /etc/redis/
+
+change bind address
+#sudo vim /etc/redis/redis.conf
+Change connect from anyhost
+#bind 0.0.0.0
+
+Need to restart redis service
+#sudo systemctl restart redis
+
+ 
+
+Summary
+
+If change bind address to 0.0.0.0, we can login from anyhost.
+After make any changes need to restart service. 
+Auto removed password after changing bind address.
+can change password under redis.conf
