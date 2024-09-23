@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 This is new feature
 
 This is modified feature.
+=======
+This is first feature.txt file.
+>>>>>>> develop
